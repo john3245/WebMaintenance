@@ -1,0 +1,72 @@
+#principal{
+    display : flex;
+flex-direction: row;
+align-items: flex-start;
+width: 100%;
+height: 600px;
+}
+
+#box-1
+{
+    width: 10%;
+    
+
+}
+
+#box-2
+{
+
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(88, 88, 88);
+}
+#box-3
+{
+
+    width: 10%;
+}
+
+
+#imagen
+{
+    width: 50%;
+}
+
+#formulario
+{
+    align-self: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#logo
+{
+    align-self: center;
+height: 20%;
+}
+
+#input1
+{
+    align-self: center;
+    height: 20%;
+}
+
+#input2
+{
+    align-self: center;
+    height: 20%;  
+}
+
+#floatingInput
+{
+    border-radius: 15px;
+    border-color: #811C30;
+    outline: none;
+}
