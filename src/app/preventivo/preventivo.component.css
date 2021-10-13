@@ -1,0 +1,23 @@
+#check-item{
+    border-radius: 15px;
+}
+
+#icon{
+    color: orange;
+}
+
+#boton-save{
+    border-radius: 15px;
+}
+
+#sl2-anio{
+    border-radius: 15px;
+}
+
+input[type=checkbox] {
+    border-radius: 15px;
+}
+  
+input[type="checkbox"]:checked {
+border-radius: 15px;
+}
