@@ -1,0 +1,51 @@
+.container 
+{
+    margin-top: 10rem;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+
+#box-1
+{
+background-color: aqua;
+}
+
+#box-2
+{
+    display: flex;
+    flex-direction:row;
+ 
+ width:100%;
+}
+
+#izquierda
+{
+width:50%;
+text-align: center;
+
+}
+
+#derecha
+{
+  
+    width:50%;
+    text-align: center;
+}
+
+#opcion
+  {
+   text-transform: uppercase;
+ 
+   transition: all .2s;
+
+  }
+  #opcion:hover, #opcion:active, #opcion:focus {
+   -ms-transform: scale(1.1);
+       transform: scale(1.1); }
+
+       #opcion--transparent {
+    
+         border: 0;
+         outline: 0; }
